@@ -164,4 +164,4 @@ bar {
 # Miscelanea                                     #
 ##################################################
 # Configure wallpaper
-exec feh -bg --scale /vagrant/resources/wallpaper/cyberpunk.png
+#exec feh -bg --scale /vagrant/resources/wallpaper/cyberpunk.png
