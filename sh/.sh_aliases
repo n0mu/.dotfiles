@@ -1,0 +1,10 @@
+alias ping5='ping -c 5'
+alias cputop="top -o %CPU"
+alias l-d="ls -lFad"
+alias l="ls -laF"
+alias ll="ls -lFa | TERM=vt100 less"
+alias ..="cd .."
+alias ...="cd ../.."
+# Clean up files that have the wrong line endings
+alias mac2unix="tr '\015' '\012'"
+alias unix2mac="tr '\012' '\015'"
