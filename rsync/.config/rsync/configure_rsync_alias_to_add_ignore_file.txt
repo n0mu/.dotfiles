@@ -1,0 +1,2 @@
+https://www.howtogeek.com/168009/how-to-exclude-files-from-rsync/
+https://stackoverflow.com/questions/13713101/rsync-exclude-according-to-gitignore-hgignore-svnignore-like-filter-c
