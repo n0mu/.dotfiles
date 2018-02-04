@@ -167,13 +167,21 @@ bindsym $mod+m mode "move"
 bar {
         font pango:FuraCode Nerd Font 9
         status_command i3status
-        strip_workspace_numbers yes
+        strip_workspace_numbers no
         position bottom
 }
 
 # Quick toggle between two most recent workspaces
 bindsym $mod+Tab workspace back_and_forth
-
+##################################################
+# Applications                                   #
+##################################################
+exec --no-startup-id urxvt; workspace 1
+exec --no-startup-id urxvt; workspace 1
+exec atom; workspace 2; layout tabbed
+exec firefox; workspace 4
+#assign [class="atom"] 2
+assign [class="firefox"] 4
 
 ##################################################
 # Miscelanea                                     #
