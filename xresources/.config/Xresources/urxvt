@@ -27,7 +27,7 @@ URxvt.saveLines:        4095
 ! Fonts
 !
 URxvt*font: xft:Fura Code Nerd Font:size=10, xft:Source Code Pro:size=10
-URxvt.letterSpace: -1
+URxvt.letterSpace: 2
 
 
 !
