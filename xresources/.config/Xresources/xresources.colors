@@ -1,0 +1,68 @@
+!
+! Colors
+!
+
+#define S_yellow		#b58900
+#define S_orange		#cb4b16
+#define S_red			  #dc322f
+#define S_magenta		#d33682
+#define S_violet		#6c71c4
+#define S_blue			#268bd2
+#define S_cyan			#2aa198
+#define S_green			#859900
+
+#define S_base03		#002b36
+#define S_base02		#0d4350
+#define S_base01		#586e75
+#define S_base00		#657b83
+#define S_base0			#839496
+#define S_base1			#93a1a1
+#define S_base2			#839496
+#define S_base3			#fdf6e3
+
+URxvt.background:	S_base03
+URxvt.foreground:	S_base0
+*fading:		0
+*fadeColor:		S_base03
+URxvt.cursorColor:	S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+URxvt.color0:	S_base02
+URxvt.color1:	S_red
+URxvt.color2:	S_green
+URxvt.color3:	S_yellow
+URxvt.color4:	S_blue
+!URxvt.color5:	S_magenta
+URxvt.color5:	S_violet
+URxvt.color6:	S_cyan
+URxvt.color7:	S_base2
+URxvt.color9:	S_orange
+URxvt.color8:	S_base03
+URxvt.color10:	S_base01
+URxvt.color11:	S_base00
+URxvt.color12:	S_base0
+URxvt.color13:	S_violet
+URxvt.color14:	S_base1
+URxvt.color15: S_base3
+
+
+! Low contrast theme, based on Zenburn <http://slinky.imukuppi.org/zenburnpage/>
+! Modified from <https://gist.github.com/564084>
+! URxvt.foreground:       #0c0c0c
+! URxvt.color0:           #3f3f3f
+! URxvt.color1:           #705050
+! URxvt.color2:           #00b45a
+! URxvt.color3:           #dfcf8f
+! URxvt.color4:           #506070
+! URxvt.color5:           #dc8cc3
+! URxvt.color6:           #8cd0d3
+! URxvt.color7:           #dcdccc
+! URxvt.color8:           #709080
+! URxvt.color9:           #cc5454
+! URxvt.color10:          #4d9f4d
+! URxvt.color11:          #f0dfaf
+! URxvt.color12:          #4186be
+! URxvt.color13:          #ec93d3
+! URxvt.color14:          #93e0e3
+! URxvt.color15:          #ffffff

@@ -1,0 +1,44 @@
+!
+! URxvt
+!
+
+URxvt*termName: rxvt-256color
+URxvt.cursorUnderline: false
+URxvt.cursorBlink: false
+URxvt*scrollBar: false
+!URxvt*borderLess: false
+URxvt.fading: 0
+URxvt*hold: boolean
+URxvt.intensityStyles: false
+!URxvt.perl-ext-common: default,matcher,clipboard,keyboard-select,selection_to_clipboard
+URxvt.perl-ext-common: default,matcher,clipboard,keyboard-select
+URxvt*urgentOnBell: false
+URxvt.saveLines:        4095
+
+!URxvt.borderColor:      #000030
+!URxvt.internalBorder:   1
+!URxvt.scrollstyle:      plain
+
+! Black background white text
+! URxvt.reverseVideo: True
+
+
+!
+! Fonts
+!
+URxvt*font: xft:SauceCodePro Nerd Font:size=10, xft:Source Code Pro:size=10
+URxvt.letterSpace: -1
+
+
+!
+! Clickable URLs
+!
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+!
+! Copy/Paste
+!
+! URxvt.keysym.M-c: perl:clipboard:copy
+! URxvt.keysym.M-v: perl:clipboard:paste
+! URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
