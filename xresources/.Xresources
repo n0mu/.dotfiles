@@ -1,3 +1,3 @@
-include ".config/Xresources/xresources.urxvt"
-include ".config/Xresources/xresources.colors"
-include ".config/Xresources/xresources.rofi"
+#include ".config/Xresources/xresources.urxvt"
+#include ".config/Xresources/xresources.colors"
+#include ".config/Xresources/xresources.rofi"
