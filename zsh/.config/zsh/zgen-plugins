@@ -6,7 +6,7 @@ zgen oh-my-zsh
 
 
 # Absolute Theme https://github.com/NelsonBrandao/absolute
-zgent load NelsonBrandao/absolute
+zgen load NelsonBrandao/absolute
 
 # If zsh-syntax-highlighting is bundled after zsh-history-substring-search,
 # they break, so get the order right.

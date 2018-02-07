@@ -131,10 +131,10 @@ if [ -d ~/.zsh-completions ]; then
   done
 fi
 
-echo
-echo "Current SSH Keys:"
-ssh-add -l
-echo
+# echo
+# echo "Current SSH Keys:"
+# ssh-add -l
+# echo
 
 
 # In case a plugin adds a redundant path entry, remove duplicate entries
