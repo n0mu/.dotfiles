@@ -1,59 +1,9 @@
-# Lines configured by zsh-newuser-install
-HISTSIZE=100000
-SAVEHIST=100000
-HISTFILE=~/.zsh_history
-export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
-
-# Long running processes should return time after they complete. Specified
-# in seconds.
-REPORTTIME=2
-TIMEFMT="%U user %S system %P cpu %*Es total"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-export COMPLETION_WAITING_DOTS="true"
-
-# Correct spelling for commands
-setopt correct
-
-# turn off the infernal correctall for filenames
-unsetopt correctall
-
-# Expand aliases inline - see http://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html
-globalias() {
-   if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
-     zle _expand_alias
-     zle expand-word
-   fi
-   zle self-insert
-}
-
-zle -N globalias
-
-bindkey " " globalias
-bindkey "^ " magic-space           # control-space to bypass completion
-bindkey -M isearch " " magic-space # normal space during searches
-
-# Customize to your needs...
-# Stuff that works on bash or zsh
-if [ -r ~/.sh_aliases ]; then
-  source ~/.sh_aliases
+# Load zsh quickstart quit
+if [ -f ~/.config/zsh/zshrc_quickstart_kit ]; then
+  source ~/.config/zsh/zshrc_quickstart_kit
 fi
 
-# Stuff only tested on zsh, or explicitly zsh-specific
-if [ -r ~/.zsh_aliases ]; then
-  source ~/.zsh_aliases
-fi
-
-if [ -r ~/.zsh_functions ]; then
-  source ~/.zsh_functions
-fi
-
-
-# JAVA setup 
-if [ -d /Library/Java/Home ];then
-  export JAVA_HOME=/Library/Java/Home
-fi
 
 #####################################################
 # Custom window title zsh function                  #
