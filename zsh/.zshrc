@@ -1,5 +1,8 @@
 #!/bin/zsh
 # Stuff that works on bash or zsh
+
+ZSH_THEME="absolute"
+
 if [ -r ~/.sh_aliases ]; then
   source ~/.sh_aliases
 fi
