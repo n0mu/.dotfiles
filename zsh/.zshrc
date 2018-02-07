@@ -1,3 +1,17 @@
+#!/bin/zsh
+# Stuff that works on bash or zsh
+if [ -r ~/.sh_aliases ]; then
+  source ~/.sh_aliases
+fi
+
+# Stuff only tested on zsh, or explicitly zsh-specific
+if [ -r ~/.zsh_aliases ]; then
+  source ~/.zsh_aliases
+fi
+
+if [ -r ~/.zsh_functions ]; then
+  source ~/.zsh_functions
+fi
 
 # Load zsh quickstart quit
 if [ -f ~/.config/zsh/zshrc_quickstart_kit ]; then

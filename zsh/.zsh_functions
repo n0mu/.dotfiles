@@ -1,0 +1,16 @@
+#!/bin/zsh
+function find-byname {
+  find ${2:-.} -name "*${1}*"
+}
+
+# List processes with most files open
+function list-open-files {
+  lsof | field 2 | uniq -c | sort -rn | head
+}
+
+
+# This comes from https://stackoverflow.com/questions/17878684/best-way-to-get-file-modified-time-in-seconds
+get_file_modification_time() {
+  modified_time=$(stat -c %Y "$1" 2> /dev/null) || modified_time=0
+  echo "${modified_time}"
+}

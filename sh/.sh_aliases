@@ -1,3 +1,4 @@
+#!/bin/sh
 alias ping5='ping -c 5'
 alias cputop="top -o %CPU"
 alias l-d="ls -lFad"
