@@ -1,7 +1,8 @@
 #!/bin/zsh
 # Stuff that works on bash or zsh
 
-ZSH_THEME="absolute"
+# Theme https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#ys
+ZSH_THEME="ys"
 
 if [ -r ~/.sh_aliases ]; then
   source ~/.sh_aliases
