@@ -14,8 +14,8 @@ if [ -r ~/.zsh_functions ]; then
 fi
 
 # Load zsh quickstart quit
-if [ -f ~/.config/zsh/zshrc_quickstart_kit ]; then
-  source ~/.config/zsh/zshrc_quickstart_kit
+if [ -f ~/.config/zsh/zsh_quickstart_kit ]; then
+  source ~/.config/zsh/zsh_quickstart_kit
 fi
 
 

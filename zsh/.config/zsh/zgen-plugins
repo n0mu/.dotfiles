@@ -5,7 +5,7 @@ ZGEN_COMPLETIONS=()
 zgen oh-my-zsh
 
 
-# Absolute Theme
+# Absolute Theme https://github.com/NelsonBrandao/absolute
 zgent load NelsonBrandao/absolute
 
 # If zsh-syntax-highlighting is bundled after zsh-history-substring-search,
