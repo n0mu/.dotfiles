@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 # https://github.com/jvinet/dotfiles/blob/master/i3/config
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles.
 font pango:Fura Code Nerd Font Mono 9
