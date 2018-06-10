@@ -9,5 +9,11 @@ fi
 # Activate .Xresources
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
+# Usb automount
+udiskie --no-notify &
+
+# set dpi for thinkpad X230
+xrandr --dpi 125.37
+
 # Start i3wm
 exec i3

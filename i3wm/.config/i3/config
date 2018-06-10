@@ -30,7 +30,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+grave exec --no-startup-id rofi -show run
+bindsym $mod+space exec --no-startup-id rofi -show run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -75,10 +75,10 @@ bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+d floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+d focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -112,7 +112,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # rename a workspace (mnemonic: 'd' for 'designate')
-bindsym $mod+d exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
+#bindsym $mod+d exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -177,6 +177,7 @@ bindsym $mod+Tab workspace back_and_forth
 # Applications                                   #
 ##################################################
 assign [class="Atom"] 2: 
+assign [class="Zeal"] 3: 
 assign [class="Firefox"] 4: 
 
 ##################################################
@@ -197,4 +198,4 @@ for_window [class="KeepassXc"] floating enable
 # Miscelanea                                     #
 ##################################################
 # Configure wallpaper
-exec --no-startup-id feh --bg-scale /vagrant/resources/wallpaper/cyberpunk.png
+exec --no-startup-id feh --bg-scale /home/jorge/images/wallpapers/cyberpunk.png
