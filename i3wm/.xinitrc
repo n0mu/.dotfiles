@@ -15,5 +15,8 @@ udiskie --no-notify &
 # set dpi for thinkpad X230
 xrandr --dpi 125.37
 
+# Switch 'caps lock' key with 'esc'
+/usr/bin/setxkbmap -option "caps:swapescape"
+
 # Start i3wm
 exec i3
